@@ -2,6 +2,10 @@
   "name": "aws-lambda-with-sigterm",
   "version": "1.0.0",
   "description": "enable sigterm in aws lambda",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:karnjj/aws-lambda-with-sigterm.git"
+  },
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "npm run lint && rimraf dist/ && tsc",
